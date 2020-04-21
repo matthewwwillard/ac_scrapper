@@ -1,14 +1,13 @@
 {
-  "name": "aca_scraper",
+  "name": "ac_scraper",
   "version": "1.0.0",
   "description": "Used to scrap Animal Crossing Wiki for data",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "scrape": "tsc && node dist/main.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Matthew Willard <matt@arandomdeveloper.com>",
+  "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "fs-extra": "^9.0.0",
